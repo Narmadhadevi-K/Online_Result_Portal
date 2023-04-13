@@ -1,0 +1,39 @@
+/*table*/
+.main {
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+    width:700px;
+    
+  }
+  .main table {
+    margin: 50px auto;
+  }
+  .main table,
+  th,
+  td {
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: fixed;
+    padding: 15px 30px;
+    width: 90px;
+  }
+  
+  .main th {
+    color: #1f40d4;
+  }
+  
+  .main tr:hover {
+    background-color: #fff;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid #7b7b7b;
+    width: 150px;
+  }
+  .caption{
+    text-align:center; 
+    font-size:40px;
+  }
+ 
